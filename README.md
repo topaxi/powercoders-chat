@@ -17,5 +17,10 @@ npm install ws --save
 node server.js
 ```
 
+## Build your own chat
+
+- Enhance your server to allow chatting in `server.js`
+- Display chat data in your `index.html` using JavaScript, HTML and CSS
+
 Resources:
 - WebSocket Server: https://github.com/websockets/ws/blob/master/doc/ws.md#ws
