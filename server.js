@@ -23,6 +23,10 @@ wss.on('connection', function(socket) {
     console.log('got message from client');
   });
 
+  socket.on('close', function() {
+    console.log('client closed the connection');
+  });
+
   socket.send('Hello from server');
 });
 
