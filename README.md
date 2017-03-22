@@ -7,8 +7,7 @@
   - `git clone https://github.com/topaxi/powercoders-chat.git`
 - Run the following command in your terminal
 ```bash
-npm init
-npm install ws --save
+npm install
 ```
 
 ## Run your chat
